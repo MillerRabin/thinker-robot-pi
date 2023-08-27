@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {      
+      "label": "deploy",
+      "command": "npm",
+      "args": ["run", "deploy"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "isBackground": true
+    }    
+  ]
+}
