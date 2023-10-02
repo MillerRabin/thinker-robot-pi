@@ -10,6 +10,16 @@
       },
       "problemMatcher": [],
       "isBackground": true
-    }    
+    },
+    {      
+      "label": "kill",
+      "command": "npm",
+      "args": ["run", "kill"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "isBackground": true
+    }
   ]
 }

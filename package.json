@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "Thinker robot nodejs for raspberry pi",
   "main": "./src/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "./deploy/deploy.sh"
+  "type": "module",
+  "scripts": {    
+    "deploy": "./deploy/deploy.sh",
+    "kill": "./kill/kill.sh",
+    "deploy:remote": "./deploy/deployRemote.sh"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/MillerRabin/thinker-robot-pi/issues"
   },
-  "homepage": "https://github.com/MillerRabin/thinker-robot-pi#readme"
+  "homepage": "https://github.com/MillerRabin/thinker-robot-pi#readme",
+  "dependencies": {   
+    "raspi-i2c": "^6.2.4"
+  }
 }
