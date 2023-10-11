@@ -6,9 +6,9 @@
 //   https://www.invensense.com/wp-content/uploads/2015/02/MPU-9250-Datasheet.pdf
 //   https://www.invensense.com/wp-content/uploads/2015/02/MPU-9250-Register-Map.pdf
 
-import LOCAL_I2C from "./localI2c.js";
-import DebugConsole from "./DebugConsole.js";
-import sleep from "./sleep.js";
+import LOCAL_I2C from "../iic/localI2c.js";
+import DebugConsole from "../iic/DebugConsole.js";
+import sleep from "../common/sleep.js";
 import { ak8963, AK8963 } from "./ak8963.js";
 
 const MPU9250_CONSTS = {

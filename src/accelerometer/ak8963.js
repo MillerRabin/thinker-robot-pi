@@ -1,6 +1,6 @@
-import DebugConsole from "./DebugConsole.js";
-import LOCAL_I2C from "./localI2c.js";
-import sleep from "./sleep.js";
+import DebugConsole from "../iic/DebugConsole.js";
+import LOCAL_I2C from "../iic/localI2c.js";
+import sleep from "../common/sleep.js";
 
 /****************/
 /** AK8963 MAP **/

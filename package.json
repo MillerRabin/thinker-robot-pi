@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/MillerRabin/thinker-robot-pi#readme",
   "dependencies": {   
-    "raspi-i2c": "^6.2.4"
+    "raspi-i2c": "^6.2.4",
+    "koa": "*",
+    "koa-static": "*",
+    "koa-body": "*"
   }
 }
